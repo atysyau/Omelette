@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="stylesheet" href="style.css">
+    <title>Recipe page</title>
+
+</head>
+
+<body>
+    
+    <section id="actually-body">
+
+    <img src="./assets/images/image-omelette.jpeg">
+
+    <!--Верхівка-->
+    <div>
+
+    <h1>Simple Omelette Recipe</h1>
+
+    <p> An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+    
+    </div>
+
+    <!--Рожева коробочка-->
+    <div id="preparation-pink-box"> <!--Проблема с цветами. Я её как бы решил, но чуток странновато, воспользовавшись подсказкой из форума 17 летней давности-->
+
+    <h3>Preparation time</h3>
+
+    <ul>
+        <li><span><span style="font-weight: 700;">Total:</span> Approximately 10 minutes</span></li>
+        <li><span><span style="font-weight: 700;">Preparation:</span> 5 minutes</span></li>
+        <li><span><span style="font-weight: 700;">Cooking:</span> 5 minutes</span></li>
+    </ul>
+
+    </div>
+
+    <!--Інґредієнти: СПИСОК ІЗ ТОЧКАМИ-->
+    <div>
+
+    <h2>Ingredients</h2>
+
+    <ul id="ingredient-list"> <!--Та же проблема с цветами-->
+        <li><span>2-3 large eggs</span></li>
+        <li><span>Salt, to taste</span></li>
+        <li><span>Pepper, to taste</span></li>
+        <li><span>1 tablespoon of butter or oil</span></li>
+        <li><span>Optional fillings: cheese, diced vegetables, cooked meats, herbs</span></li>
+    </ul>
+
+    </div>
+
+    <hr>
+
+    <!--Інструкції: СПИСОК ІЗ НУМЕРАЦІЄЮ-->
+    <div>
+
+        <h2>Instructions</h2>
+
+        <ol id="instruction-list"> <!--И вновь цвет нумерации-->
+            <li><span><span style="font-weight: 700;">Beat the eggs:</span> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
+                You can add a tablespoon of water or milk for a fluffier texture.</span></li>
+            <li><span><span style="font-weight: 700;">Heat the pan:</span> Place a non-stick frying pan over medium heat and add butter or oil.</li>
+            <li><span><span style="font-weight: 700;">Cook the omelette:</span> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
+                the eggs evenly coat the surface.</span></li>
+            <li><span><span style="font-weight: 700;">Add fillings (optional):</span> When the eggs begin to set at the edges but are still slightly runny in the 
+                middle, sprinkle your chosen fillings over one half of the omelette.</span></li>
+            <li><span><span style="font-weight: 700;">Fold and serve:</span> As the omelette continues to cook, carefully lift one edge and fold it over the 
+                fillings. Let it cook for another minute, then slide it onto a plate.</span></li>
+            <li><span><span style="font-weight: 700;">Enjoy:</span> Serve hot, with additional salt and pepper if needed.</span></li>
+        </ol>
+
+    </div>
+
+    <hr>
+
+    <!--Харчова цінність: ТАБЛИЦЯ-->
+    <div>
+
+        <h2>Nutrition</h2>
+
+        <p>The table below shows nutritional values per serving without the additional fillings.</p>
+
+        <table id="table">   <!--Я не понял, как менять цвет текста в конкретных столбцах, поэтому сделал через span-->
+
+            <tr>
+                <td>Calories</td>
+                <td><span style="color: hsl(14, 45%, 36%); font-weight: 700;">277kcal</span></td>
+            </tr>
+
+            <tr>
+                <td>Carbs</td>
+                <td><span style="color: hsl(14, 45%, 36%); font-weight: 700;">0g</span></td>
+            </tr>
+
+            <tr>
+                <td>Protein</td>
+                <td><span style="color: hsl(14, 45%, 36%); font-weight: 700;">20g</span></td>
+            </tr>
+
+            <tr style="border-bottom: none;">
+                <td>Fat</td>
+                <td><span style="color: hsl(14, 45%, 36%); font-weight: 700;">22g</span></td>
+            </tr>
+
+        </table>
+
+    </div>
+
+
+    
+    </section>
+
+</body>
+</html>
